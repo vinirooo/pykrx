@@ -6,9 +6,6 @@ class Get:
     def __init__(self):
         self.headers = {
             "User-Agent": "Mozilla/5.0",
-            "Host": "data.krx.co.kr",
-            "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201"
         }
 
     def read(self, **params):
